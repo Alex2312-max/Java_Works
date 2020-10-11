@@ -38,7 +38,7 @@ public class Lab_2_Task_2 {
         System.out.println(queue2.toString());
         Check if queue is empty
         */
-
+        
         queue1.isEmpty();
         queue1.isEmpty();
         //Check if queue is full and estimate how may elements can be introduced
