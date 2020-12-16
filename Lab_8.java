@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class Lab_8 {
     public static void main(String[] args) {
-        Cub cub = new Cub(3);
+        Cube cube = new Cube(3);
         Parallelepiped parallelepiped = new Parallelepiped(3,3,4);
         Sphere sphere = new Sphere(3);
 
         ArrayList<GeometricBody> geometricBodiesList = new ArrayList<>();
 
-        geometricBodiesList.add(cub);
+        geometricBodiesList.add(cube);
         geometricBodiesList.add(parallelepiped);
         geometricBodiesList.add(sphere);
 
@@ -19,10 +19,10 @@ public class Lab_8 {
 }
 
 
-class Cub implements GeometricBody {
+class Cube implements GeometricBody {
     int cubeEdge;
 
-    public Cub(int cubeEdge) {
+    public Cube(int cubeEdge) {
         this.cubeEdge = cubeEdge;
     }
 
@@ -36,7 +36,7 @@ class Cub implements GeometricBody {
     }
     @Override
     public String toString() {
-        return "Cub{" +
+        return "Cube{" +
                 "cubeEdge=" + cubeEdge +
                 '}';
     }
